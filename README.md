@@ -17,7 +17,6 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 <H3>Program:</H3>
-```
 import nltk
 from nltk.corpus import wordnet
 
@@ -69,7 +68,7 @@ for sentence in sentences:
         synonyms = get_synonyms(verb)
         print(f"Verb: {verb}")
         print(f"Synonyms: {', '.join(synonyms)}\n")
-```
+
 <H3>Output:</H3>
 ![AAI ex6 3](https://github.com/MSowmya28/Ex-6--AAI/assets/94154791/2240ad50-bdd3-43cd-9503-fa47df72a1e1)
 ![AAI ex6 1](https://github.com/MSowmya28/Ex-6--AAI/assets/94154791/26bd2e40-550e-4938-9e6d-d384fd395bb0)
